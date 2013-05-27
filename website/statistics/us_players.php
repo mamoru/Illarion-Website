@@ -104,7 +104,7 @@ logging on. Usually other follow if someone is playing.</p>
 					case 2: $content[$current_list] .= '<div style="margin:16px 0"><img style="float:left;margin-top:-4px;" src="'.Page::getMediaURL().'/runewick.png" /><h3 style="margin:0">Runewick</h3></div>'; break;
 					case 3: $content[$current_list] .= '<div style="margin:16px 0"><img style="float:left;margin-top:-4px;" src="'.Page::getMediaURL().'/galmair.png" /><h3 style="margin:0">Galmair</h3></div>'; break;
 					case 4: $content[$current_list] .= '<h3>Outlaws</h3>'; break;
-					default: $content[$current_list] .= '<h3>Unbekannt</h3>';
+					default: $content[$current_list] .= '<h3>Unknown</h3>';
 				}
 				$content[$current_list] .= '<ul>';
 			}
